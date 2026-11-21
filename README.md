@@ -11,8 +11,8 @@ Evaluation: chronological split; MAE, RMSE, R²
 Visualisation: actual vs predicted, metrics, feature importance, future forecast
 
 Usage:
-# pip install -r requirements.txt
-# python predanalysis.py                                   # synthetic data
-# python predanalysis.py --csv data.csv --date-col Date --target-col Sales --freq D --horizon 60
+- pip install -r requirements.txt
+- python predanalysis.py                                   # synthetic data
+- python predanalysis.py --csv data.csv --date-col Date --target-col Sales --freq D --horizon 60
 
 Tech stack: Python, pandas, NumPy, scikit-learn, statsmodels, Matplotlib
